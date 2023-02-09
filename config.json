@@ -25,11 +25,11 @@
                         "dest":20000
                     },
                     {
-                        "path":"/uuid-vm",
+                        "path":"/uuid-vmess",
                         "dest":10000
                     },
                     {
-                        "path":"/uuid-tr",
+                        "path":"/uuid-trojan",
                         "dest":30000
                     },
                     {
@@ -37,7 +37,7 @@
                         "dest":40000
                     },
                     {
-                        "path":"/uuid-so",
+                        "path":"/uuid-ssr",
                         "dest":50000
                     }
                 ]
@@ -81,7 +81,7 @@
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/uuid-vl"
+                    "path":"/uuid-vless"
                 }
             },
             "sniffing":{
@@ -109,7 +109,7 @@
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/uuid-vm"
+                    "path":"/uuid-vmess"
                 }
             },
             "sniffing":{
@@ -137,7 +137,7 @@
                 "network":"ws",
                 "security":"none",
                 "wsSettings":{
-                    "path":"/uuid-tr"
+                    "path":"/uuid-trojan"
                 }
             },
             "sniffing":{
@@ -195,7 +195,7 @@
             "streamSettings":{
                 "network":"ws",
                 "wsSettings":{
-                    "path":"/uuid-so"
+                    "path":"/uuid-ssr"
                 }
             },
             "sniffing":{
